@@ -1,4 +1,4 @@
-# C++ Studies
+# C++ Studies - OOP University of Ioannina | Dept of IT & Telecommunications
 
 This repository contains notes and example code for learning C++ programming. It covers fundamental and advanced topics, including variables, pointers, functions, memory management, and object-oriented programming concepts.
 
