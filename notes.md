@@ -6,7 +6,7 @@
 - Pointers allow functions to modify variables outside their own scope by accessing their memory addresses.
 - They are used for dynamic memory allocation, efficient array handling, and implementing data structures like linked lists.
 - Syntax: `type *pointerName;` (e.g., `int *p;`)
-- The value at the address a pointer points to can be accessed or modified using the `*` operator (dereferencing).
+- The value at the address a pointer points to can be accessed or modified using the `*` operator (dereferencing). **EDIT: 17/08/2025**
 
 ## Friend Function
 - A friend function is a function that is not a member of a class but has access to its private and protected members.
