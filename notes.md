@@ -33,3 +33,9 @@
   - **Class Diagram**: Shows classes, their attributes, methods, and relationships (inheritance, association).
   - **Sequence Diagram**: Shows how objects interact in a particular scenario of a use case.
 - UML helps in planning and communicating software architecture before coding. **EDITED 18/08/2025**
+
+## To do:
+- Write getters, setters, etc
+- Write const functionality
+- Virtual functions
+- Constructor/Destructor
