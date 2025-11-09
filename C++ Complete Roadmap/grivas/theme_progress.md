@@ -9,6 +9,8 @@
     - using std::cout;
     - using std::endl; 
 - `#include <iostream>` -> Basic I/O Library
+
+## Compiler Installation
 - GCC Compiler Installation:
     - Ctrl + Shift + X -> Extensions Menu VSC -> C/C++
     - Installation of MSYS2: 'https://www.msys2.org/'
@@ -22,4 +24,5 @@
     - Select New and add the MinGW-w64 destination folder recorded during the installation process to the list. If used the default settings above, then this will be the path:`C:\msys64\ucrt64\bin`
     - Check GCC Version: CMD -> `gcc --version`
   
+
 
