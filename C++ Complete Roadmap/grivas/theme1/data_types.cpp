@@ -1,28 +1,22 @@
-// int myNum = 5;               Integer
-// float myFloatNum = 5.99;     Floating point number
-// double myDoubleNum = 9.98;   Floating point number
-// char myLetter = 'D';         Character
-// bool myBoolean = true;       Boolean
-// string myText = "Hello";     String 
-
 #include <iostream>
 #include <string>
 using namespace std;
 
 int main() {
-    int myNum = 5;               // Integer
-    float myFloatNum = 5.99;     // Floating point number
-    double myDoubleNum = 9.98;   // Floating point number
-    char myLetter = 'D';         // Character
-    bool myBoolean = true;       // Boolean
-    string myText = "Hello";     // String 
+    int x = 5;               // Integer
+    float y = 5.99;     // Floating point number
+    double z = 9.98;   // Floating point number
+    char w = 'D';         // Character
+    bool v = true;       // Boolean
+    string testText = "Hello";     // String 
 
-    cout << "Integer: " << myNum << endl;
-    cout << "Float: " << myFloatNum << endl;
-    cout << "Double: " << myDoubleNum << endl;
-    cout << "Character: " << myLetter << endl;
-    cout << "Boolean: " << myBoolean << endl;
-    cout << "String: " << myText << endl;
+    cout << "Integer: " << x << endl;
+    cout << "Float: " << y << endl;
+    cout << "Double: " << z << endl;
+    cout << "Character: " << x << endl;
+    cout << "Boolean: " << v << endl;
+    cout << "String: " << testText << endl;
 
     return 0;
 }
+
