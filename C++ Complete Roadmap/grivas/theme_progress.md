@@ -1,4 +1,8 @@
 # Theme 1: I/O, Logic, Data Types, Syntax, GCC Compiler, Basic Libraries
+## Useful Links:
+- 'https://cplusplus.com/'
+- 'https://cppreference.com'
+
 - Special Characters: ( ) . , + - * / =
 - Using std/without std:
     - using namespace std;
@@ -18,3 +22,4 @@
     - Select New and add the MinGW-w64 destination folder recorded during the installation process to the list. If used the default settings above, then this will be the path:`C:\msys64\ucrt64\bin`
     - Check GCC Version: CMD -> `gcc --version`
   
+
