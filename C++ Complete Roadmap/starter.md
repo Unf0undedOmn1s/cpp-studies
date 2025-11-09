@@ -1,4 +1,6 @@
-# 12 Week c++ Programming Roadmap
+# 12 Week c++ Programming Roadmap 
+## References:
+- C++ Reference: 'https://cppreference.com/'
 
 | **Week** | **Theme**                                          | **Description**                                                     | **Example Challenge**                                                                                                                        |
 | :------: | :------------------------------------------------- | :------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -21,4 +23,5 @@ After completing the 12-week foundation, continue with Phase 2, focusing on:
 - Linked lists
 - Recursion-based puzzles
 - Graphs and trees
+
 - Simple game logic or simulations
