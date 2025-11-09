@@ -12,7 +12,8 @@
     - Windows Search -> MSYS2 -> Terminal opens up
     - Update the system: `pacman -syu`
     - Install GCC: `pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain`
-    - ![MSYS2](grivas/theme1/screenshots/msys2.png)
+    - ![MSYS2](grivas/screenshots/msys2.png)
     - 
+
 
 
