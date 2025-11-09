@@ -15,5 +15,6 @@
     - Add the path of MinGW-w64 bin folder to the Windows PATH environment variable by using the following steps:
     - In the Windows search bar, search for `Edit environment variables for your account` 
     - In User variables, select the Path variable and then select `Edit`
-    - Select New and add the MinGW-w64 destination folder you recorded during the installation process to the list. If you used the default settings above, then this will be the path:     `C:\msys64\ucrt64\bin`
+    - Select New and add the MinGW-w64 destination folder recorded during the installation process to the list. If used the default settings above, then this will be the path:`C:\msys64\ucrt64\bin`
     - Check GCC Version: CMD -> `gcc --version`
+  
