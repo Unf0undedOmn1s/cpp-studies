@@ -1,5 +1,3 @@
-let’s officially kick off **Week 1** 🎯
-
 This first week should **set the tone**: not too easy, but solid enough that everyone gets to practice syntax, control flow, and thinking like a programmer in C++.
 Here’s a full “exercise sheet” you can literally send to your group chat or print out.
 
