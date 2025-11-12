@@ -33,5 +33,15 @@
 - double: 8 bytes | Stores fractional numbers, containing one or more decimals. Sufficient for storing 15 decimal digits.
 ## EDITED 11/11/2025
 
+## If Statements
+- Less than: `a<b`
+- Less than or equal to: `a<=b`
+- Greater than: `a>=b`
+- Equal to: `a==b`
+- Not equal to: `1!=b`
+
+## While Loops:
+- Loops can execute a block of code as long as a specified condition is reached.
+## EDITED 13/11/2025
 
 
