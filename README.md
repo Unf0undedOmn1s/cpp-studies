@@ -13,7 +13,7 @@ This repository contains notes and example code for learning C++ programming. It
 
 ## How to Use
 
-1. Open the code files in your C++ IDE or editor (e.g., Visual Studio Code).
+1. Open the code files in C++ IDE or editor (e.g., Visual Studio Code).
 2. Read the comments and notes for explanations.
 3. Compile and run the `.cpp` files to see the output and experiment with the code.
 
