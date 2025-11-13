@@ -16,7 +16,5 @@ int main() {
     cout << "Character: " << x << endl;
     cout << "Boolean: " << v << endl;
     cout << "String: " << testText << endl;
-
     return 0;
 }
-
