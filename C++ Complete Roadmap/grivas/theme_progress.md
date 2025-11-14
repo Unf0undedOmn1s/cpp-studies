@@ -2,6 +2,7 @@
 ## Useful Links:
 - 'https://cplusplus.com/'
 - 'https://cppreference.com'
+- 'https://w3schools.com'
 
 # Lang Introduction
 - Special Characters: ( ) . , + - * / =
@@ -44,4 +45,15 @@
 - Loops can execute a block of code as long as a specified condition is reached.
 ## EDITED 13/11/2025
 
+## For Loops:
+- When you know exactly how many times you want to loop through a block of code.
 
+## First Exercise - Universal Converter in C++
+- Used formulas to convert time, temperature, etc
+    - Eg: `T(°C) = (T(°F) - 32) × 5/9` -> Fahrenheit to Celcius
+- Learned Setprecision: Formatting tool from the <iomanip> library that controls how many digits a floating-point number (like float) is printed with.
+    - Eg: `cout << setprecision(3);` -> 154.123 => 154
+- Problems Encountered:
+    - GCC Compiler would not work on my Windows Machine.
+    - Solution => Compiled in `https://www.programiz.com/cpp-programming/online-compiler/`
+    - See 'screenshots' -> `cpp-studies/C++ Complete Roadmap/grivas/theme1/screenshots` for more
