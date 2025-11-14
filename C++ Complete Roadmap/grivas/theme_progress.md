@@ -48,7 +48,7 @@
 ## For Loops:
 - When you know exactly how many times you want to loop through a block of code.
 
-## First Exercise - Universal Converter in C++
+## First Exercise - Universal Unit Converter in C++
 - Used formulas to convert time, temperature, etc
     - Eg: `T(°C) = (T(°F) - 32) × 5/9` -> Fahrenheit to Celcius
 - Learned Setprecision: Formatting tool from the <iomanip> library that controls how many digits a floating-point number (like float) is printed with.
@@ -58,3 +58,4 @@
     - Solution => Compiled in `https://www.programiz.com/cpp-programming/online-compiler/`
     - See 'screenshots' -> `cpp-studies/C++ Complete Roadmap/grivas/theme1/screenshots` for more
 ## EDITED 14/11/2025
+
