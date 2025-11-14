@@ -13,9 +13,7 @@ int main() {
 
     float x = 0; // Input
     float y = 0; // Result
-
     string last = ""; // Storing Last Conversion
-
     cout << fixed << setprecision(2);
 
     while (choice != 4) {
@@ -159,6 +157,5 @@ int main() {
             cout << "\nLast conversion:\n" << last << endl;
         }
     }
-
     return 0;
 }
