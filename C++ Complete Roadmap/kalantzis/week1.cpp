@@ -83,28 +83,14 @@ vector<function<double(double)>> timeActions = {
 int main() {
     int choice,second_choice;
     double input,result;
+    char again = 'y';
     print();
 
-    while (true) {
-        cout << "Provide a choice: ";
-        if (cin >> choice) {
-            if (choice > 0 && choice<5)
-                break;
-            else
-                cout << "Wrong input! Choose one of the options" << endl;
-        }
-        else {
-            cout << "Wrong Input! Enter an integer." << endl;
-            cin.clear();
-            cin.ignore(numeric_limits<streamsize>::max(), '\n');
-        }
-    }
-    if (choice == 1) {
-        print_temprature();
+    while(again == 'y' || again == 'Y') {
         while (true) {
             cout << "Provide a choice: ";
-            if (cin >> second_choice) {
-                if (second_choice > 0 && second_choice<7)
+            if (cin >> choice) {
+                if (choice > 0 && choice<5)
                     break;
                 else
                     cout << "Wrong input! Choose one of the options" << endl;
@@ -115,53 +101,76 @@ int main() {
                 cin.ignore(numeric_limits<streamsize>::max(), '\n');
             }
         }
-        cout << "Provide the value: ";
-        cin >> input;
-        double result = temperatureActions[second_choice - 1](input);
-        cout << "Value converted: " << result << endl;
-    }
-    else if (choice == 2) {
-        print_distance();
-        while (true) {
-            cout << "Provide a choice: ";
-            if (cin >> second_choice) {
-                if (second_choice > 0 && second_choice<13)
-                    break;
-                else
-                    cout << "Wrong input! Choose one of the options" << endl;
+        if (choice == 1) {
+            print_temprature();
+            while (true) {
+                cout << "Provide a choice: ";
+                if (cin >> second_choice) {
+                    if (second_choice > 0 && second_choice<7)
+                        break;
+                    else
+                        cout << "Wrong input! Choose one of the options" << endl;
+                }
+                else {
+                    cout << "Wrong Input! Enter an integer." << endl;
+                    cin.clear();
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                }
             }
-            else {
-                cout << "Wrong Input! Enter an integer." << endl;
-                cin.clear();
-                cin.ignore(numeric_limits<streamsize>::max(), '\n');
-            }
+            cout << "Provide the value: ";
+            cin >> input;
+            double result = temperatureActions[second_choice - 1](input);
+            cout << "Value converted: " << result << endl;
         }
-        cout << "Provide the value: ";
-        cin >> input;
-        double result = distanceActions[second_choice - 1](input);
-        cout << "Value converted: " << result << endl;
-    }
-    else if (choice == 3) {
-        print_time();
-        while (true) {
-            cout << "Provide a choice: ";
-            if (cin >> second_choice) {
-                if (second_choice > 0 && second_choice<7)
-                    break;
-                else
-                    cout << "Wrong input! Choose one of the options" << endl;
+        else if (choice == 2) {
+            print_distance();
+            while (true) {
+                cout << "Provide a choice: ";
+                if (cin >> second_choice) {
+                    if (second_choice > 0 && second_choice<13)
+                        break;
+                    else
+                        cout << "Wrong input! Choose one of the options" << endl;
+                }
+                else {
+                    cout << "Wrong Input! Enter an integer." << endl;
+                    cin.clear();
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                }
             }
-            else {
-                cout << "Wrong Input! Enter an integer." << endl;
-                cin.clear();
-                cin.ignore(numeric_limits<streamsize>::max(), '\n');
-            }
+            cout << "Provide the value: ";
+            cin >> input;
+            double result = distanceActions[second_choice - 1](input);
+            cout << "Value converted: " << result << endl;
         }
-        cout << "Provide the value: ";
-        cin >> input;
-        double result = timeActions[second_choice - 1](input);
-        cout << "Value converted: " << result << endl;
+        else if (choice == 3) {
+            print_time();
+            while (true) {
+                cout << "Provide a choice: ";
+                if (cin >> second_choice) {
+                    if (second_choice > 0 && second_choice<7)
+                        break;
+                    else
+                        cout << "Wrong input! Choose one of the options" << endl;
+                }
+                else {
+                    cout << "Wrong Input! Enter an integer." << endl;
+                    cin.clear();
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                }
+            }
+            cout << "Provide the value: ";
+            cin >> input;
+            double result = timeActions[second_choice - 1](input);
+            cout << "Value converted: " << result << endl;
+        }
+        else
+            return 0;
+
+        cout << "Do you want to convert another value?[y/n]";
+        if (cin >> again) {
+            if (again == 'n' || again == 'N')
+                return 0;
+        }
     }
-    else
-        return 0;
 }
