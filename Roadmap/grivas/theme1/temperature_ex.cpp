@@ -17,7 +17,7 @@ int main() {
     cout << fixed << setprecision(2);
 
     while (choice != 4) {
-        cout << "\n--- Universal Unit Converter ---\n";
+        cout << "\nUniversal Unit Converter\n";
         cout << "1. Temperature\n";
         cout << "2. Distance\n";
         cout << "3. Time\n";
