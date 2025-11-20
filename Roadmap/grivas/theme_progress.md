@@ -60,4 +60,29 @@
     - See 'screenshots' -> `cpp-studies/C++ Complete Roadmap/grivas/theme1/screenshots` for more
 ## EDITED 14/11/2025
 
-
+## Function Declaration
+- A function is a reusable block of code that performs a specific task.
+Syntax:
+```bash
+returnType functionName(parameters) {
+    // code
+    return something; // (if not void)
+}
+```
+Example of return types:
+- int: returns an integer
+- double: returns a decimal
+- char: returns a single character
+- string: returns text
+- bool: returns true or false
+- void: returns nothing
+### Reusable Logic
+- **Without Functions**
+    - Code repeats
+    - Hard to maintain
+    - Hard to debug
+- **With Functions**
+    - Clean code
+    - Reusable blocks
+    - Clear structure
+**EDITED 20/11/2025**
