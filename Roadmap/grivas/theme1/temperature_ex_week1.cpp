@@ -1,5 +1,5 @@
 #include <iostream>
-#include <iomanip> // For setprecision (Formatting for float values)
+#include <iomanip> // For setprecision (Formatting for float values) ->  Bonus for exercise `https://cplusplus.com/reference/iomanip/setprecision/`
 // Websites/References used for this code:
 // https://www.geeksforgeeks.org/cpp/iomanip-setprecision-function-in-c-with-examples/
 // https://www.w3schools.com/cpp/
