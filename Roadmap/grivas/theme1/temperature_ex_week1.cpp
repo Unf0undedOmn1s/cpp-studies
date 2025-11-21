@@ -1,5 +1,10 @@
 #include <iostream>
 #include <iomanip> // For setprecision (Formatting for float values) ->  Bonus for exercise `https://cplusplus.com/reference/iomanip/setprecision/`
+// Setprecision eample:
+// 3.1416
+// 3.14159
+// 3.14159
+// 3.141590000
 // Websites/References used for this code:
 // https://www.geeksforgeeks.org/cpp/iomanip-setprecision-function-in-c-with-examples/
 // https://www.w3schools.com/cpp/
@@ -7,10 +12,8 @@
 // https://www.programiz.com/cpp-programming/online-compiler/
 
 using namespace std;
-
 int main() {
     int choice = 0;  
-
     float x = 0; // Input
     float y = 0; // Result
     string last = ""; // Storing Last Conversion
