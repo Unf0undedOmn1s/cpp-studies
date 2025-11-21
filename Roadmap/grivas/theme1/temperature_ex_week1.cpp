@@ -146,7 +146,7 @@ int main() {
             }
         }
 
-        // Exiting
+        // Exiting program if choice is 4
         else if (choice == 4) {
             cout << "\nGoodbye.\n";
         }
