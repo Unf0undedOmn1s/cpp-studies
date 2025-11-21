@@ -19,5 +19,6 @@ This repository contains notes and example code for learning C++ programming. It
 
 ## Requirements
 
-- C++ compiler (e.g., g++)
+- C++ compiler (e.g., GCC, G++)
+- Linux/Unix Like Environments: `g++ main.cpp -o main`
 - Basic knowledge of programming concepts
