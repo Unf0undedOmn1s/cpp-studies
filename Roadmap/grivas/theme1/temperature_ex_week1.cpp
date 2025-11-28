@@ -1,5 +1,10 @@
 #include <iostream>
-#include <iomanip> // For setprecision (Formatting for float values)
+#include <iomanip> // For setprecision (Formatting for float values) ->  Bonus for exercise `https://cplusplus.com/reference/iomanip/setprecision/`
+// Setprecision eample:
+// 3.1416
+// 3.14159
+// 3.14159
+// 3.141590000
 // Websites/References used for this code:
 // https://www.geeksforgeeks.org/cpp/iomanip-setprecision-function-in-c-with-examples/
 // https://www.w3schools.com/cpp/
@@ -7,17 +12,15 @@
 // https://www.programiz.com/cpp-programming/online-compiler/
 
 using namespace std;
-
 int main() {
     int choice = 0;  
-
     float x = 0; // Input
     float y = 0; // Result
     string last = ""; // Storing Last Conversion
     cout << fixed << setprecision(2);
 
     while (choice != 4) {
-        cout << "\n--- Universal Unit Converter ---\n";
+        cout << "\nUniversal Unit Converter\n";
         cout << "1. Temperature\n";
         cout << "2. Distance\n";
         cout << "3. Time\n";
@@ -143,7 +146,7 @@ int main() {
             }
         }
 
-        // Exiting
+        // Exiting program if choice is 4
         else if (choice == 4) {
             cout << "\nGoodbye.\n";
         }
